@@ -14,7 +14,7 @@ function getgeo() {
 
  
     //セッションを終了する
-    curl_close($conn);
+    curl_close($ch);
 
     return var_dump($res);
 }
