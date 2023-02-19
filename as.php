@@ -1,7 +1,7 @@
 <?php
 
 function getgeo() {
-    $url = "https://www.sejuku.net/blog/";
+    $url = "https://geolocation-db.com/json/";
  
     $ch = curl_init();
  
